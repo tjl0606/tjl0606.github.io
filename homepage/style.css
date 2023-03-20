@@ -1,3 +1,4 @@
+
 p{
     color: #E7E7E7;
   }
@@ -12,6 +13,7 @@ p{
     padding-bottom: 1rem;
     padding-left: 4rem;
   }
+ 
   #about{
     background-color: #212529;
   }
@@ -76,3 +78,28 @@ p{
     transition: all .3s ease;
     cursor: pointer;
   }
+
+/* homepage */
+.hero-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.hero-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+.min-vh-100 {
+  min-height: 100vh!important;
+}
+.d-flex {
+  display: flex!important;
+}
+.my-auto {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
