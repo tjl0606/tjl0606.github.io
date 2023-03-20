@@ -1,0 +1,78 @@
+p{
+    color: #E7E7E7;
+  }
+  h1{
+    color:white;
+  }
+  h4{
+    color:black;
+  }
+  h5{
+    color:white;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+  }
+  #about{
+    background-color: #212529;
+  }
+  #skills{
+    background-color: #4C4D4D;
+  }
+  #projects{
+    background-color: #212529;
+  }
+  section {
+    height: 700pt;
+    position: relative;
+    padding: 8rem 0;
+    overflow: hidden;
+  }
+  .fw-600 {
+    font-weight: 600 !important;
+  }
+  .text-24 {
+    font-size: 8.25rem !important;
+  }
+  .lh-base {
+    line-height: 1.5!important;
+  }
+  .text-9 {
+    font-size: 2.25rem !important;
+  }
+  .opacity-1 {
+    opacity: 0.2;
+  }
+  img{
+    width: 100%;
+    padding: 0%;
+  }
+  .cards {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+  }
+  .cards ul li {
+    margin: 0 0 40px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  .cards ul {
+    margin: 0 0 0 -40px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .inner_card {
+    background-color: #323232;
+    border: none;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    float: left;
+    position: relative;
+    padding: 45px 30px 40px;
+    transition: all .3s ease;
+    cursor: pointer;
+  }
