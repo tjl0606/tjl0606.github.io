@@ -32,6 +32,9 @@ p{
   .fw-600 {
     font-weight: 600 !important;
   }
+  .fw-500 {
+    font-weight: 500 !important;
+  }
   .text-24 {
     font-size: 8.25rem !important;
   }
@@ -104,6 +107,7 @@ p{
   margin-bottom: auto!important;
 }
 
+
 #main {
   width: 100%; 
   height: 229px;
@@ -111,27 +115,43 @@ p{
   justify-content: center;
   align-items: center;
 }
-span {
+.typed {
   display: inline-block;
-/*     宽度设置的大些就行 */
-/*     width: 400px; */
-/*     ch表示一个字体的宽度 */
-  width: 21ch;
-  font: bold 200% Consolas, Monaco, monospace;   /*等宽字体*/
+  width: 16ch;
+  font: bold 200% Consolas, Monaco, monospace;   
   overflow: hidden;
   white-space: nowrap;
   font-weight: 500;
   border-right: 1px solid transparent;
-/*     step,帧动画相较于渐变的动画更合适此时 */
-/*     animation: typing 3s; */
-  animation: typing 3s steps(21), caret .5s steps(1) infinite;
+  animation: typing 3.5s steps(16), caret .7s steps(1) infinite;
+}
+.delay{
+  display: inline-block;
+  width: 25ch;
+  font: bold 200% Consolas, Monaco, monospace;   
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+  border-right: 1px solid transparent;
+  
+  animation: stop 3.5s,typing 9s steps(25), caret .7s steps(1) infinite;
+  
 }
 
 @keyframes typing{
-  from {
+  33% {
       width: 0;
   }
 }
 @keyframes caret{
   50% { border-right-color: white}
+}
+
+@keyframes stop{
+  from {
+      opacity: 0;
+  }
+  to {
+    opacity: 0;
+}
 }
