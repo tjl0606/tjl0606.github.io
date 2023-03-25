@@ -87,7 +87,7 @@ section {
   font-weight: 500 !important;
 }
 .text-24 {
-  font-size: 8.25rem !important;
+  font-size: calc(3rem + 6vw) !important;
 }
 .lh-base {
   line-height: 1.5!important;
