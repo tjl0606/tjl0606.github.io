@@ -7,10 +7,11 @@ h1,h3{
 h4{
   color:black;
 }
-h5{
-  color:white;
-  padding-bottom: 1rem;
-  padding-left: 4rem;
+.content{
+  color:#E7E7E7;
+  padding-bottom: 0.3vw;
+  padding-left: 1vw;
+  font-size: calc(1rem + 0.3vw);
 }
 
 
@@ -25,7 +26,7 @@ h5{
 }
 section {  
   position: relative;
-  padding: 8rem 0;
+  padding: 10rem 0 ;
   overflow: hidden;
 }
 .fw-600 {
@@ -48,6 +49,8 @@ section {
 }
 .img{
   width: 100%;
+  max-width: 300px;
+  align-self: center;
   padding: 0%;
 }
 .cards {
