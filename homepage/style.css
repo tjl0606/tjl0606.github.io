@@ -1,4 +1,12 @@
-
+body{
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
 p{
   color: #E7E7E7;
 }
@@ -126,6 +134,9 @@ section {
 }
 
 /* homepage */
+.text-16 {
+  font-size: calc(0.7rem + 1.2vw) !important;
+}
 .hero-wrap {
 position: relative;
 overflow: hidden;
