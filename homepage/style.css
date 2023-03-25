@@ -135,7 +135,7 @@ section {
 
 /* homepage */
 .text-16 {
-  font-size: calc(0.7rem + 1vw) !important;
+  font-size: calc(0.6rem + 1vw) !important;
 }
 .hero-wrap {
 position: relative;
